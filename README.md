@@ -9,14 +9,11 @@
 
 ## Agenda for workshop
 
-* 10:00 - 10:10: Unplugged Activity
-    + Drawing analogy
-    + Discussion on merging features to make an overall project
-* 10:10 - 10:30:
-    + Live Share + Codespaces setup
-    + remote vs local
-    + branching
-    + Distinction between VSC live share + Git
+* 12:00 - 12:10: (10min) Intro to Git and motivations
+* : (05min) Intro to GitHub + Repos + FOSS
+* 12:10 - 12:15: (05min) Unplugged Activity
+* 12:15 - 12:45: () Live collaborating
+* 12:45 - 01:00: () ???
 
 # Agenda for Teaching Git Workshop (1 hour)
 
