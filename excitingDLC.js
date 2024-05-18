@@ -20,4 +20,5 @@
 
 function jump() {
   move("up");
+  backgroundColor = "red";
 }
