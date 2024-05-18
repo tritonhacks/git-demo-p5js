@@ -11,7 +11,7 @@
 
 * Intro to Git and motivations
 * Intro to GitHub + Repos + FOSS
-* Whiteboard
+* Whiteboard 
 * Live collaboration
 	* committing code
 	* branching
