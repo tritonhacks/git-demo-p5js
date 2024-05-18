@@ -1,3 +1,3 @@
 function jump() {
-  // something useful
+  move("up");
 }
