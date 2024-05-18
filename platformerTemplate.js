@@ -64,9 +64,9 @@ function checkInputs() {
 }
 
 let boundColor = "white";
-let bg_color = "black";
+let backgroundColor = "black";
 function drawLevel() {
-  background(bg_color);
+  background(backgroundColor);
   drawBounds();
 
   defaultLevel();
@@ -106,9 +106,10 @@ function drawBlock(x, y) {
   rect(x, y, x + 30, y + 30);
 }
 
+let playerColor = "red";
 function drawPlayer() {
   push();
-  fill("red");
+  fill(playerColor);
   noStroke();
   rect(playerX, playerY, playerX + playerWidth, playerY + playerHeight);
   pop();
@@ -242,7 +243,7 @@ function getCollisions(x, y, w, h) {
   ];
 
   let collisions = [];
-  const bg_array = color(bg_color).levels.join(",");
+  const bg_array = color(backgroundColor).levels.join(",");
   for ({ side, arr } of bounds) {
     let box = get(...arr);
     box.loadPixels();
