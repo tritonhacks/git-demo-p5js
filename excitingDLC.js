@@ -20,5 +20,5 @@
 
 function jump() {
   move("up");
-  backgroundColor = "blue";
+  backgroundColor = "red";
 }
